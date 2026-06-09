@@ -2,32 +2,39 @@
     margin: 0;
     padding: 0;
 }
-.cabecalho{
+.cabecalho  {
     padding: 15px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(0, 69, 160);
+    background-color: rgb(238, 245, 255);
 }
 .cartao {
     width: 260px;
     height: 200px;
 }
-.cartao-imagem{
+.cartao-imagem  {
     width: 100%;
 }
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: rgb(181, 181, 255);
 }
    main{
       flex: 1;
    }
-   .cabecalho-link{
+   .cabecalho-link {
     color: deepskyblue;
     text-decoration: none ;
    }
    h1{
-    color: aqua;
+    color: rgb(213, 121, 255);
+    font-size: 24px;
+   }
+   footer {
+      background-color: azure;
+      padding: 15px 25px;
+      color: black;
    }
